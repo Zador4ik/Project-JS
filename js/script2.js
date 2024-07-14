@@ -20,7 +20,7 @@ console.log(valueCeil);
 
 const companyName = 'Cyberdyne Systems';
 const repairBots = 150;
-const efenceBots = 50;
+const defenceBots = 50;
 const message = `has  bots in stock`;
 console.log(companyName,message); // "Cyberdyne Systems has 200 bots in stock"
 
