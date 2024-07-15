@@ -38,3 +38,10 @@ console.log(fixedBmi);
 let nomNegative = 1;
 let nomCheck = isNaN(nomNegative);
 console.log(nomCheck);
+
+let firstWord = "Wow";
+let secondWord = "Interesting";
+let firstWordLetter = firstWord[0];
+let secondWordLetter = secondWord[0];
+let chooseWord = firstWordLetter == secondWordLetter;
+console.log(chooseWord);
