@@ -67,5 +67,3 @@ let firstWordLetter = firstWord[0];
 let secondWordLetter = secondWord[0];
 let chooseWord = firstWordLetter == secondWordLetter;
 console.log(chooseWord);
-
-// ок
