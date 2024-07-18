@@ -13,10 +13,11 @@ console.log(founder); //Найти положение слова ‘string’ в
 let founder2 = str.indexOf(' s');
 console.log(founder2); //Найти положение второго пробела (“вручную” ничего не считать)
 
-let simvols1 = str.slice(-12, -6);
+let index = 4;
+let simvols1 = str.slice(index, index + 4);
 console.log(simvols1) //Получить строку с 5-го символа длиной 4 буквы
 
-let simvols2 = str.slice(-12, -6);
+let simvols2 = str.slice(index, 10);
 console.log(simvols2) //Получить строку с 5-го по 9-й символы
 
 let newString = str.slice(0, -6);;
