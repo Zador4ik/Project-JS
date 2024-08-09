@@ -7,8 +7,6 @@ obj1.product = "Iphone";
 obj1.price = 1000;
 obj1.currency = "dollar";
 let details = Object.create(obj1);
-details.model = ""
-details.color = ""
 
 console.log(obj1);
 
