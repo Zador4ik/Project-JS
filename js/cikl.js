@@ -50,3 +50,7 @@ console.log(zeroFound);
 } else {
     console.log("Не найдено число");
 }
+
+
+
+
