@@ -77,3 +77,36 @@ function getArray() {
 }
 
 getArray();
+
+function factorial(chis = prompt("Введите число")) {
+    let chis1 = Number(chis);
+    if(typeof chis1 == 'number' && !isNaN(chis1)) {
+     let save = 1;
+     for (let i = 1; i < chis1; i++) {
+         save *= i;
+        }
+     return save;
+    } else {
+        alert("Не являеться числом");
+    }
+}
+
+factorial();
+
+
+function checking(userD = {
+    name: "Denis",
+    age: "29",
+    gender: "male"
+}) {
+    if(userD.name === "Deni" & userD.age == "29" & userD.gender == "male") {
+    console.log("Все данные верны!");
+   } else {
+    userD.name = "Ivan";
+    userD.age = "20";
+    userD.gender = "male";
+   }
+   console.log(userD);
+}
+
+checking();
